@@ -12,15 +12,21 @@ import { Link } from 'gatsby'
 * to a `site-nav-item` class.
 *
 */
-const Navigation = ({ data, navClass }) => (
+const Navigation = ({ navClass }) => (
     <>
-        {data.map((navItem, i) => {
+    <div className="zacsName">
+    <h1>Zac Harris</h1>
+  </div>
+  <div className="burgerMenu">
+
+  </div>
+        {/* {data.map((navItem, i) => {
             if (navItem.url.match(/^\s?http(s?)/gi)) {
                 return <a className={navClass} href={navItem.url} key={i} target="_blank" rel="noopener noreferrer">{navItem.label}</a>
             } else {
                 return <Link className={navClass} to={navItem.url} key={i}>{navItem.label}</Link>
             }
-        })}
+        })} */}
     </>
 )
 
