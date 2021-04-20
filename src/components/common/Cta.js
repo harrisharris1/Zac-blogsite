@@ -31,3 +31,4 @@ const CtaQuote = ()=>(
         </div> 
         </div>
         )
+        export default CtaQuote
