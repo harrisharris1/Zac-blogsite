@@ -1,0 +1,79 @@
+/* NAV/HEADER */
+
+/* IPAD QUERIES */
+
+@media (max-width: 840px) {
+    .zacsName h1 {
+       font-style: italic;
+      font-weight: normal;
+      font-size: 2.3rem;
+    }
+  }
+
+  @media (max-width: 840px) {
+    .greeting img{
+      width: 55% ;
+      margin-left: 25%;
+    }
+
+    .icons img{
+      width: 60px;
+    }
+  }
+
+  @media (max-width: 840px){
+    .greeting h2{
+      font-size: 3rem;
+      line-height: 40px;
+      color:pink;
+    }
+
+    .underline {
+      border-bottom: 4px solid #EE6454;
+    }
+    .workLogos img{
+        width: 150px
+}
+  }
+
+  @media (max-width: 840px){
+    .paragraphs h2{
+   font-size: 2.9rem;
+   line-height: 40px;
+   margin-top: 40px;
+}
+.paragraphs p{
+    font-size: 18px;
+}
+.paragraphs h3{
+    font-size: 22px;
+}
+.mainContainer img{
+    width: 35%;
+    margin-top: 10%;
+ }
+
+}
+
+@media (max-width: 840px){
+  .ctaSection img {
+    margin-top: 9.8rem;
+    margin-left: 6rem;
+}
+.quote-container{
+  max-width: 650px;
+  height: 444px;
+}
+.quote h5 {
+  font-size: 2.7rem;
+  margin: 3%;
+
+}
+}
+@media (max-width: 840px){
+  .site-foot-nav-left img {
+  line-height: 40px;
+}
+}
+
+
